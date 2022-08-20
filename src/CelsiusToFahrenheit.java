@@ -21,5 +21,16 @@ public class CelsiusToFahrenheit {
          */
 
 
+        System.out.println("86 F -->"+convertFahrenheitToCelcius(86) );
+        System.out.println("32 C -->"+convertSntigratToCelcius(32));
+
     }
+    public static double convertFahrenheitToCelcius(int grade){
+        return (grade-32)/1.8;
+    }
+    public static double convertSntigratToCelcius(int grade){
+        return (grade*1.8)+32;
+    }
+
+
 }
